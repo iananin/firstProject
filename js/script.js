@@ -1,3 +1,4 @@
+"use strict";
 let numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', ' ');
 let personalMovieDB = {
     'count': numberOfFilms,
@@ -6,6 +7,7 @@ let personalMovieDB = {
     'genres':[],
     'privat': false
 };
+
 let a = prompt('один из последних просмотренных фильмов', '');
 let b = prompt('на сколько его оцените','');
 let c = prompt('один из последних просмотренных фильмов', '');
