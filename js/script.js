@@ -22,13 +22,13 @@ for(let i = 0; i < 2; i++){
     }
 }
     if(personalMovieDB <10){
-        console.log('вы много посмотрели');
+        alert('вы много посмотрели');
     } else if(personalMovieDB.count >= 10&&personalMovieDB < 30){
-        console.log('вы любите фильмы');
+        alert('вы любите фильмы');
     } else if(personalMovieDB.count>=30){
-        console.log('вы киноман');
+        alert('вы киноман');
     } else{
-        console.log('fault');
+        alert('oOoPs');
     }
     
 console.log(personalMovieDB);
