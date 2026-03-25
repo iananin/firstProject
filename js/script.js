@@ -28,7 +28,7 @@ for(let i = 0; i < 2; i++){
     } else if(personalMovieDB.count>=30){
         alert('вы киноман');
     } else{
-        alert('oOoPs');
+        alert('oOoPs вы слишком мало смотрите фильмы');
     }
     
 console.log(personalMovieDB);
